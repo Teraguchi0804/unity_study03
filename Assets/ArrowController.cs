@@ -18,7 +18,7 @@ public class ArrowController : MonoBehaviour
 	    transform.Translate(0, -0.1f, 0);
 
 	    //画面外に出たらオブジェクトを破棄する
-	    if (transform.position.y <0)
+	    if (transform.position.y <　-5.0f)
 	    {
 	        Destroy(gameObject);
 	    }
